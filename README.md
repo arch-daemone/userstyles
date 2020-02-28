@@ -8,7 +8,7 @@ What can I say, I definitely like a dark theme!
 
 Staying on top of your money is easy... *on the eyes*
 
-A dark theme for UK-based personal finance and budgeting site [Money Dashboard][md].
+A dark theme for UK-based personal finance and budgeting site [Money Dashboard].
 
 ## Farnam Street After Dark
 
@@ -16,7 +16,7 @@ A dark theme for UK-based personal finance and budgeting site [Money Dashboard][
 
 Think better. Work better. Live better. *At night.*
 
-A dark theme for the blog [Farnam Street][fs].
+A dark theme for the blog [Farnam Street].
 
 ## Dark Blue Zones
 
@@ -24,12 +24,12 @@ A dark theme for the blog [Farnam Street][fs].
 
 live longer, better, *darker*
 
-A dark theme for the website [Blue Zones][bz].
+A dark theme for the website [Blue Zones].
 
 [shield]: https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg
-[md]: https://moneydashboard.com
-[fs]: https://fs.blog
-[bz]: https://bluezones.com
+[Money Dashboard]: https://moneydashboard.com
+[Farnam Street]: https://fs.blog
+[Blue Zones]: https://bluezones.com
 [md-theme]: https://raw.githubusercontent.com/DaemonExMachina/userstyles/master/money-dashboard/money-dashboard-dark.user.css
 [fs-theme]: https://raw.githubusercontent.com/DaemonExMachina/userstyles/master/fs-blog/fs-blog-dark.user.css
 [bz-theme]: https://raw.githubusercontent.com/DaemonExMachina/userstyles/master/blue-zones/dark-blue-zones.user.css
