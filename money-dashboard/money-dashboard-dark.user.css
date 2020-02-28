@@ -2,7 +2,7 @@
 @name         Money Dashboard Dark
 @namespace    github.com/DaemonExMachina/userstyles
 @description  Staying on top of your money is easy... *on the eyes*
-@version      1.2.0
+@version      1.2.1
 @author       DaemonExMachina <dev@daemonexmachina.com>
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
@@ -850,6 +850,7 @@
 
   /* Manage Tags */
 
+  .searchBarContainer .searchBar,
   section.contentBox.manageTags,
   .searchBarContainer {
     background-color : var(--bg-2);
@@ -859,6 +860,7 @@
     color : var(--text-1);
   }
 
+  .input-container .help-text,
   .searchBarContainer .searchBar input::placeholder {
     color : var(--text-3);
   }
@@ -867,6 +869,7 @@
     color : var(--text-1);
   }
 
+  .levelsContainer .levelColumn .add-tag,
   .levelsContainer .levelColumn .tagLine {
     background-color : var(--bg-3);
   }
@@ -886,6 +889,11 @@
 
   .tagSettings p {
     color : var(--text-3);
+  }
+
+  .editTag .close-button {
+    filter: invert(1);
+    fill: var(--text-2);
   }
 
   /****************************************************************************************/
@@ -1230,7 +1238,7 @@
 
   md-menu-content.md-default-theme,
   md-menu-content {
-    background-color : var(--bg-3);
+    background-color : var(--bg-2);
   }
 
   md-menu-content.md-default-theme md-menu-item,
