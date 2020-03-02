@@ -1,6 +1,6 @@
 # DaemonExMachina's UserStyles
 
-What can I say, I definitely like a dark theme!
+What can I say, I definitely like a dark theme! And apparently a bad pun.
 
 ## Money Dashboard Dark
 
