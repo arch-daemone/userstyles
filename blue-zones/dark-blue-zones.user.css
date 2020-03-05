@@ -2,7 +2,7 @@
 @name         Dark Blue Zones
 @namespace    github.com/DaemonExMachina/userstyles
 @description  live longer, better, *darker*
-@version      1.0.1
+@version      1.0.2
 @author       DaemonExMachina <dev@daemonexmachina.com>
 @license      CC-BY-SA-4.0
 ==/UserStyle== */
@@ -91,5 +91,18 @@
   #wp_page_numbers li.active_page a,
   #wp_page_numbers li.active_page a:hover {
     background-color : #963;
+  }
+
+  /* Scrollbars */
+
+  *::-webkit-scrollbar,
+  *::-webkit-scrollbar-track,
+  *::-webkit-scrollbar-thumb {
+    width            : 8px;
+    background-color : var(--bg-2);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color : #999;
   }
 }
