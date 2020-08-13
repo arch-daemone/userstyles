@@ -443,7 +443,7 @@
 
   table.aui > tbody > tr,
   table.aui > tfoot > tr {
-    background: var(--bg-body);
+    background: var(--bg-body) !important;
   }
 
   table.permissions-table tbody > tr:hover > td,
