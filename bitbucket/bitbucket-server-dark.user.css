@@ -825,6 +825,11 @@
     border-color: var(--border-colour);
   }
 
+  /* Approve Button Style */
+  .aui-button.approve > span {
+  	background-color: #36B37E;
+  }
+
 
   /* Buttons (hover) */
   .aui-button:focus,
@@ -838,6 +843,11 @@
     color: var(--text-2);
     background-color: var(--bg-body);
     border-color: var(--border-colour);
+  }
+
+  /* Approve Button Hover Style */
+  .aui-button.approve:hover > span {
+  	background-color: #00875A;
   }
 
 
