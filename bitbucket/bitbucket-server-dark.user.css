@@ -184,6 +184,18 @@
     border-color: var(--border-colour);
   }
 
+  .pull-request-header .divider {
+    border-right: 1px solid var(--border-colour);
+  }
+
+  .blame {
+    border-right: 4px solid var(--border-colour);
+  }
+  
+  .aui-sidebar[aria-expanded="false"] .aui-sidebar-group-tier-one ~ .aui-sidebar-group-tier-one {
+    border-top: 2px solid var(--border-colour);
+  }
+
   li.has-actions:hover,
   .aui-sidebar button.aui-nav-item.aui-button.aui-button-link:hover {
     color: #3572b0;
@@ -431,7 +443,7 @@
 
   table.aui > tbody > tr,
   table.aui > tfoot > tr {
-    background: var(--bg-body);
+    background: var(--bg-body) !important;
   }
 
   table.permissions-table tbody > tr:hover > td,
@@ -674,9 +686,14 @@
   #commits-table tr:hover .message .tags-container::before,
   .commits-table tbody tr:hover .message::after,
   .commits-table tr.focused-commit .message::after,
+  .commits-table tr.focused .message::after,
   .filebrowser-table tr.focused-file .directory-file-history.message::after,
   .filebrowser-table tr:hover .directory-file-history.message::after {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), var(--bg-dark-grey));
+  }
+
+  .commits-table tr.focused .message::after {
+    border-top: 1px var(--border-colour);
   }
 
   .pull-request-state-lozenge.needs-work {
@@ -796,12 +813,21 @@
     color: var(--text-2) !important;
     border-color: var(--border-colour);
   }
+  
 
+  .aui-tabs.horizontal-tabs > .tabs-menu::after {
+    background: var(--border-colour);
+  }
 
   .aui-button a,
   .aui-button .aui-icon {
     color: var(--text-2);
     border-color: var(--border-colour);
+  }
+
+  /* Approve Button Style */
+  .aui-button.approve > span {
+  	background-color: #36B37E;
   }
 
 
@@ -817,6 +843,11 @@
     color: var(--text-2);
     background-color: var(--bg-body);
     border-color: var(--border-colour);
+  }
+
+  /* Approve Button Hover Style */
+  .aui-button.approve:hover > span {
+  	background-color: #00875A;
   }
 
 
@@ -984,9 +1015,14 @@
   form.aui .multi-select,
   form.aui .aui-select2-container,
   .markup-editor textarea {
-    color: var(--text-2);
-    background-color: var(--bg-dark-grey);
-    border-color: var(--border-colour);
+    color: var(--text-2) !important;
+    background-color: var(--bg-dark-grey) !important;
+    border-color: var(--border-colour) !important;
+  }
+
+  .search .text {
+    border-width: 1px !important;
+    border-style: solid !important;
   }
 
   .filebrowser-table .directory-file-history.message a {
@@ -1252,7 +1288,6 @@
   .aui-tabs > .tabs-menu .menu-item a:visited {
     /* Primary background (darkest grey) */
     background-color: var(--bg-body);
-  ;
   }
 
   h1,
@@ -1270,6 +1305,7 @@
 
   h3,
   h4,
+  h4 > button,
   h5,
   .aui-page-header-hero .aui-page-header-main p,
   .aui-page-header-marketing .aui-page-header-main p,
